@@ -5,8 +5,7 @@ const Deck = require('../src/Deck');
 const Round = require('../src/Round');
 
 class Game {
-  constructor(round) {
-    this.currentRound = round;
+  constructor() {
     this.data = data.prototypeData;
   }
 
