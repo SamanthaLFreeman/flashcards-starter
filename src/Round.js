@@ -31,14 +31,12 @@ class Round {
   }
 
   endRound() {
-    // if (this.turns === this.deck.length) {
     if (this.calculatePercentCorrect() > 90) {
       console.log(`** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`);
     } else {
       console.log(`** You messed up! **  You answered ${this.calculatePercentCorrect()}% of the questions, so try again!`);
       this.game.start();
     }
-    // }
   }
 
 }
