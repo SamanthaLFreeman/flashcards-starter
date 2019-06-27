@@ -31,7 +31,7 @@ class Round {
 
   endRound() {
     if (this.turns === this.deck.length) {
-      return `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
+      return console.log(`** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`);
     }
   }
 }
