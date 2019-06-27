@@ -22,7 +22,7 @@ class Game {
   start() {
     let cards = this.data.map(questionObj => new Card(questionObj));
     let deck = new Deck(cards);
-    let round = new Round(deck);
+    let round = new Round(deck, this);
     this.printMessage(deck, round);
     this.printQuestion(round);
   }
