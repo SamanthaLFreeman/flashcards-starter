@@ -1,12 +1,14 @@
 # FlashCards
 
-##Project Description
+## Project Description
+
 This project creates simulated flash cards in the command line. The user is able to see questions, answer them, and see immediately if they got the question correct before moving to the next question. At the end of the game, the user will see a display of how many questions they got correct and if they got less than 90% correct then the game will instantly start over.
 
-##Learning Goals
+## Learning Goals
+
 Utilize ES6 classes to build a game application in the terminal. Further establishing my understanding of Object Oriented Programming. In addition, focus on developing my skills in Test Driven Development. All while creating dry code that follows Single Responsibility Principle.
 
-##Created with:
+## Created with:
 
 - JavaScript (OOP)
 - Mocha/Chai (Unit Testing)
