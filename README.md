@@ -1,6 +1,6 @@
 # FlashCards
 
-![Gameplay Gif](/flashcards_gif.gif)
+![Gameplay Gif](/flashcards.gif)
 
 ## Project Description
 
