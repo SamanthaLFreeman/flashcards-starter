@@ -1,5 +1,7 @@
 # FlashCards
 
+![Gameplay Gif](/flashcards_gif.gif)
+
 ## Project Description
 
 This project creates simulated flash cards in the command line. The user is able to see questions, answer them, and see immediately if they got the question correct before moving to the next question. At the end of the game, the user will see a display of how many questions they got correct and if they got less than 90% correct then the game will instantly start over.
